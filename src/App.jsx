@@ -805,8 +805,8 @@ export default function App() {
       {/* Header */}
       <header className="bg-white p-4 flex justify-between items-center shadow-sm sticky top-0 z-10">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-gradient-to-tr from-emerald-500 to-emerald-300 rounded-lg flex items-center justify-center text-white font-bold">P</div>
-          <span className="font-bold text-xl text-slate-800 tracking-tight">Previa App</span>
+          <img src="logo-previa.png" alt="Previa Logo" className="w-8 h-8 rounded-lg object-contain" />
+          <span className="font-bold text-xl text-slate-800 tracking-tight">Previa</span>
         </div>
         <button onClick={() => setActiveTab("community")} className="relative p-2 rounded-full hover:bg-slate-100 text-slate-600">
           <Bell size={20} />
